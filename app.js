@@ -7,7 +7,7 @@
 
         if (cnic === storedCnic && password === storedPassword) {
             alert("Student Login Successfully! ✓");
-            window.location.href = "dashboard/dashboard.html"; // Student dashboard
+            window.location.href = "Dashboard/dashboard.html"; // Student dashboard
         } else {
             alert("Invalid CNIC or Password!");
         }

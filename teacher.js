@@ -6,7 +6,7 @@
         let storedPassword = localStorage.getItem("userPassword");
 
         if (cnic === storedCnic && password === storedPassword) {
-            window.location.href = "dashboard/dashboard.html"; // Teacher dashboard
+            window.location.href = "Dashboard/dashboard.html"; // Teacher dashboard
             alert("trainer login successfully ✓")
         } else {
             alert("Invalid CNIC or Password!");
