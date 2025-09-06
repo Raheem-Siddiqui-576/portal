@@ -426,5 +426,7 @@ table th, table td {
      text-overflow: ellipsis;
    
 }
-
+.card{
+    margin-bottom: 50px;
+}
   }

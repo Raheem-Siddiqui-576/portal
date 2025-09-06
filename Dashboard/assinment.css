@@ -149,7 +149,8 @@ table button:hover {
    }
    .table-mob{
    display: block;
- }
+   margin-bottom: 40px; 
+}
  
 table{
     width: 90%;

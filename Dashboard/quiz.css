@@ -16,6 +16,7 @@
 }
 .main-content{
     width: 85%;
+    margin-bottom: 40px;
 }
 .content-inner-con {
     display: flex;

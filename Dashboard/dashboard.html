@@ -19,9 +19,15 @@
 
   <nav class="mob-nav">
     <div class="nav-inn-div">
-      <div class="nav-img">
-        <a href=""><img src="../assests/image/profile.jpg"></a>
-      </div>
+      <div class=" dropdown">
+  <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle" 
+     id="dropdownUser" data-bs-toggle="dropdown" aria-expanded="false">
+    <img src="../assests/image/profile.jpg" alt="profile" class="rounded-circle" style="width:40px; height:40px;">
+  </a>
+  <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser">
+    <li><a class="dropdown-item" href="../index.html">Logout</a></li>
+  </ul>
+</div>
       <div class="nav-icon">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -349,7 +355,7 @@
         </div>
         <div class="col-12 mob-show">
             <div class="card">
-  <div class="card-body">
+  <div class="card-body mb-lg-0">
     <div class="d-flex justify-content-between">
       <div style="line-height: 10px;">
        <p>Aug 2025</p>
