@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMIT - Student Portal</title>
+    <!---fev-icon------>
+    <link rel="icon" href="assests/logo/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <main id="main">
+            <div class="main-container">
+                <img src="assests/logo/logo.png">
+                <h3>Student Portal</h3>
+                <div class="bt-container">
+                    <a href="index.html" class="bt" id="bt-1">Login</a>
+                    <a href="create-password.html" class="bt" id="bt-2">Create a Password</a>
+                </div>
+                <form onsubmit="return loginUser()">
+                    <h3>Login</h3>
+                    <p>Kindly provide the CNIC number and password used during SMIT course registration.</p>
+                    <div class="input-con">
+                        <label for="cnic">CNIC *</label>
+                        <input type="number" id="cnic" name="cnic" required>
+                    </div>
+                    <div class="input-con">
+                        <label for="password">Password *</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <button type="submit" class="log-in">Login</button>
+                </form>
+                <a href="trainer.html" id="login-teacher">Login as teacher</a>
+            </div>
+        </main>
+    </section>
+
+   <script src="app.js"></script>
+
+</body>
+
+</html>

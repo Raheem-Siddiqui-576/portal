@@ -1,0 +1,138 @@
+@import url(dashboard.css);
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-content-top{
+    display: flex;
+    justify-content: space-between;
+}
+.main-content-top h5{
+    font-size: 35px;    
+    font-family: signika-2;
+    font-weight: 600;
+    
+}
+.drop-down{
+   border:1px solid #69757b;
+ 
+   font-size: 14px;
+   overflow-x: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   
+}
+.dropdown-menu{
+    font-size: 16px;
+    white-space: nowrap;
+    
+}
+.drop-down:hover{
+    border: 1px solid #69757b;
+}
+
+.attendence-1-con{
+    border: 1px solid #dddddd;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.attendence-1-con  p:first-child{
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+
+
+.card-icon{
+    background-color: #f1f5f9;
+    border-radius: 100%;
+}
+.second-con{
+    border: 2px solid #dddddd;
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 50px;
+}
+.filler{
+    border: 1px solid #dddddd;
+    height: 10px;
+    width: 98%;
+    background-color: #dddddd;
+}
+.filler-inn{
+    height: 10px;
+    width: 93%;
+    background-color: #22c55e;
+}
+.second-con p{
+    color: #22c55e;
+}
+.span-atten-file{
+    border: 1px solid #22c55e;
+    background-color: #edfdf3;
+    padding: 2px 7px;
+    color: #22c55e;
+    border-radius: 10px;
+}
+.atten-detail{
+    border: 1px solid #dddddd;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+table{
+    border-radius: 10px;
+}
+table th{
+    color: black;
+    font-weight: 400;
+}
+.mob-screen{
+    display: none;
+}
+@media (max-width: 575.98px){
+    .mar-top{
+        margin-top: 20px;
+    }
+    .mob-screen{
+        display: block;
+    }
+    .laptop-screen{
+        display: none;
+    }
+ .drop-down{
+   border:1px solid #69757b;
+   font-size: 10px;
+   overflow-x: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   margin-bottom: 15px;
+}
+.dropdown-menu{
+    font-size: 10px;
+    white-space: nowrap;
+    
+}
+.attendence-1-con  p:first-child{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.attendence-1-con p:last-child{
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+}

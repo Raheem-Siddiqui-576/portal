@@ -1,0 +1,196 @@
+@import url(dashboard.css);
+
+.main-content-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content-top h5 {
+    font-size: 35px;
+    font-family: signika-2;
+    font-weight: 600;
+
+}
+
+.drop-down {
+    border: 1px solid #69757b;
+    width: 250px;
+    font-size: 14px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.dropdown-menu {
+    font-size: 16px;
+}
+
+.generate {
+    border: 1px solid #f0f5f5;
+    background-color: #F0F5FF;
+    border-radius: 10px;
+    padding: 0px 25px;
+    padding-top: 8px;
+    color: #1c4ca3;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+table {
+    border: 1px solid #dddddd;
+}
+
+table tr th {
+    color: rgb(115, 115, 115);
+    font-weight: 350;
+}
+
+table,
+table tr th,
+table tr td {
+    border-top: 1px solid #dddddd;
+    background-color: #fbfbfb !important;
+}
+
+.table-tr {
+    vertical-align: middle;
+    background-color: #fbfbfb !important;
+}
+
+.table-para {
+    border: 1px solid #dcfce7;
+    border-radius: 10px;
+    padding-bottom: 3px;
+    margin: 0px;
+    background-color: #dcfce7;
+    color: #166534;
+    padding: 0px 10px;
+}
+
+.table-butt {
+    height: 35px;
+    line-height: 3px;
+    padding-bottom: 10px;
+}
+
+.mobile-card {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile-card {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .laptop-table {
+        display: none;
+    }
+
+    .drop-down {
+        border: 1px solid #69757b;
+        width: 200px;
+        font-size: 12px;
+        overflow-x: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .dropdown-menu {
+    font-size: 10px;
+}
+
+
+    .two-btn button {
+        font-size: 12px;
+    }
+
+    .card-body-top-div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .due-date {
+        color: rgb(106, 112, 124);
+        font-weight: 600;
+    }
+
+    .table-para-mobile {
+        padding: 0px;
+        border: 1px solid #dcfce7;
+        background-color: #DCFCE7;
+        color: #166534;
+        font-weight: 700;
+        padding: 0px 10px;
+        border-radius: 15px;
+        line-height: 30px;
+    }
+
+    .card-body-lower-div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile-card p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1059px) {
+    .table-para {
+        border: 1px solid #dcfce7;
+        border-radius: 10px;
+        padding-bottom: 3px;
+        font-size: 12px;
+        margin: 0px;
+        background-color: #dcfce7;
+        color: #166534;
+        padding: 0px 10px;
+    }
+
+    .table-butt {
+        height: 35px;
+        line-height: 8px !important;
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+
+    table {
+        border: 1px solid #dddddd;
+    }
+
+    table tr th {
+        color: rgb(115, 115, 115);
+        font-weight: 350;
+
+    }
+
+    table,
+    table tr th,
+    table tr td {
+        border-top: 1px solid #dddddd;
+        background-color: #fbfbfb !important;
+        white-space: nowrap;
+        font-size: 10px;
+    }
+
+    .table-tr {
+        vertical-align: middle;
+        background-color: #fbfbfb !important;
+    }
+
+    .tab .table-para {
+        border: 1px solid #dcfce7;
+        border-radius: 10px;
+        padding-bottom: 3px;
+        margin: 0px;
+        background-color: #dcfce7;
+        color: #166534;
+    }
+
+    .table-butt {
+        height: 35px;
+        line-height: 3px;
+        padding-bottom: 10px;
+    }
+
+}

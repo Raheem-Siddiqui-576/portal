@@ -1,0 +1,188 @@
+@import url(dashboard.css);
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+    font-family: signika-2;
+  src: url(../assests/font/Signika/Signika-VariableFont_GRAD\,wght.ttf);
+  font-weight: 100 900;
+}
+.course-main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+     background-color: #fbfbfb;
+}
+.drop-down{
+   width: 200px; 
+   border:1px solid #69757b;
+   font-size: 14px;
+   text-align: start;  
+}
+.drop-down:hover{
+    border: 1px solid #69757b;
+}
+.dropdown-menu{
+    font-size: 16px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+.upper{
+    border: 2px solid #e5e5e5 !important;
+    width: 50%;
+    padding:10px 10px;
+    background-color: #f8fafc !important; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 20px;
+}
+.web-enroll-con{
+    display: flex;
+    gap: 10px;   
+}
+   .web-enroll-con h4{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+   }
+.web-enroll-con p{
+    border: 1px solid #69c9fc;
+    padding: 1px 5px;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color: #ebf7ff;
+    color: #69c9fc;
+    font-weight: 800 !important;
+}
+.wma{
+    display: flex;
+    gap: 5px;
+}
+
+.lower{
+    border: 1px solid #e5e5e5 !important;
+    width: 50%;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    }
+.chl-con{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+
+    .laptop-screen h5{
+        font-size: 30px;
+    }
+    .mob-screen{
+        display: none;
+    }
+@media (max-width: 575.98px) { 
+  .course-main-content{
+    width: 100% !important;
+    height: 100vh;
+    padding: 30px 30px;
+}
+.web-enroll-con h4{
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+   }
+ .upper{
+    border: 1px solid black;
+    width: 90%;
+    padding:10px 10px; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.lower{
+    border: 1px solid black;
+    width: 90%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+     justify-content: space-around;
+    padding: 10px 0px;
+    align-items: center;
+    }
+    .lower .chl-con span{
+        font-size: 10px !important;
+        line-height: 10px;
+      }
+     
+    .lower .chl-con svg{
+        height: 15px;
+    }
+    .laptop-screen{
+        display: none;
+    }
+    .mob-screen{
+        display: block;
+    }
+    .drop-down{
+   width: 130px; 
+   border:1px solid #69757b;
+   font-size: 12px;
+   text-align: start;  
+}
+
+}
+
+
+@media (max-width: 991px) {
+  .laptop-screen{
+        display: none;
+    }
+    .mob-screen{
+        display: block;
+    }
+    .course-main-content{
+    width: 100% !important;
+    height: 100vh;
+    padding: 30px 30px;
+}
+    .upper{
+    border: 1px solid black;
+    width: 70%;
+    padding:10px 10px; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.lower{
+    border: 1px solid black;
+    width: 70%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+     justify-content: space-around;
+    padding: 10px 0px;
+    align-items: center;
+    }
+    
+}
+@media (min-width: 992px) { 
+    .upper{
+    border: 1px solid black;
+    width: 50%;
+    padding:10px 10px; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   }
+   .lower{
+    border: 1px solid black;
+    width: 50%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+     justify-content: space-around;
+    padding: 10px 0px;
+    }
+    
+ }  

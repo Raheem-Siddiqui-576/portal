@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMIT - Student Portal</title>
+   <!-----fev-con-icon---->
+    <link rel="icon" href="../assests/logo/logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <nav class="mob-nav">
+      <div class="nav-inn-div">
+      <div class="nav-img">
+        <a href=""><img src="../assests/image/profile.jpg"></a>
+      </div>
+      <div class="nav-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bell text-gray-800"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"></path></svg>
+      </div>
+      </div>
+    </nav>
+    <div class="main-con">
+ <div class="sidebar-con">
+    <div id="img-div"> 
+        <img src="../assests/logo/logo.png" alt="smit-logo">
+    </div>
+<div >
+<ul class="nav flex-column">
+  <li class="nav-item">
+  
+    <a class="nav-link" aria-current="page" href="dashboard.html  "> 
+      <span>  <svg xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard w-5 h-5 min-w-5"><rect width="7" height="9" x="3" y="3" rx="1"></rect><rect width="7" height="5" x="14" y="3" rx="1"></rect><rect width="7" height="9" x="14" y="12" rx="1"></rect><rect width="7" height="5" x="3" y="16" rx="1"></rect>
+    </svg></span>
+    Dashboard</a>
+  </li>
+  <li class="nav-item">
+   
+    <a class="nav-link" href="course.html"> <span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open w-5 h-5 min-w-5"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg></span>Courses</a>
+  </li>
+  <li class="nav-item">
+     <a class="nav-link" href="attendence.html"><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-check w-5 h-5 min-w-5"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path><path d="m9 16 2 2 4-4"></path></svg>
+   </span>Attendence</a>
+  </li>
+  <li class="nav-item">
+   <a class="nav-link" href="payment.html" tabindex="-1"><span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card w-5 h-5 min-w-5"><rect width="20" height="14" x="2" y="5" rx="2"></rect><line x1="2" x2="22" y1="10" y2="10"></line></svg>
+    </span>Payment</a>
+  </li>
+<li class="nav-item">
+     <a class="nav-link" href="assinment.html" tabindex="-1"><span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text w-5 h-5 min-w-5"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+  </span>Assignment</a>
+  </li>
+<li class="nav-item">
+       <a class="nav-link active" href="quiz.html"><span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-check w-5 h-5 min-w-5"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="m9 14 2 2 4-4"></path></svg>
+</span>Quiz</a>
+  </li>
+
+</ul>
+</div>
+
+  <div class="profile">
+      <p class="mb-0 me-2">Mohammed Rah...</p>
+    
+        <div class="dropdown" style="border: 0px solid white;">
+  <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle" 
+     id="dropdownUser" data-bs-toggle="dropdown" aria-expanded="false">
+    <img src="../assests/image/profile.jpg" alt="profile" class="rounded-circle" style="width:40px; height:40px;">
+  </a>
+  <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser">
+    <li><a class="dropdown-item" href="../index.html">Logout</a></li>
+  </ul>
+</div>
+</div>
+</div>
+ <div class="main-content">
+     <div class="mobile-card">
+         <div class="dropdown mb-3">
+            <button class="btn btn-white dropdown-toggle drop-down" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              WEB AND MOBILE APP DEVELOPMENT
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">WEB AND MOBILE APP DEVELOPMENT - BATCH-6 ✔</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="main-content-top  mb-2 laptop-table" >
+        <h3>Quizzes</h3>
+        <div>
+          <div class="dropdown">
+            <button class="btn btn-white dropdown-toggle drop-down" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              WEB AND MOBILE APP DEVELOPMENT
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">WEB AND MOBILE APP DEVELOPMENT - BATCH-6 ✔</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  <div class="row">
+     <div class="col-lg-12 col-12">
+      <div class="import-inf">
+          <h4><span ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-triangle-alert h-4 w-4 text-primary"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg></span>Important Information</h4>
+        <ul>
+          <li>Once started, quizzes must be completed in one session</li>
+          <li>Switching tabs or leaving the window will be recorded</li>
+          <li>Ensure you have a stable internet connection  </li>
+          <li>The quiz will open in fullscreen mode</li>
+        </ul>
+      </div>
+     </div>
+     <div class="col-lg-12 col-12 laptop">
+      <table class="table table-hover">
+         <tr>
+          <th>Module</th>
+          <th>Title</th>
+          <th>Questions</th>
+          <th>Attempts</th>
+          <th>Score</th>
+          <th>Percentage</th>
+          <th>Status</th>
+          <th>Action</th>
+         </tr>
+         <tr>
+          <td>Web Designing Module</td>
+          <td>HTML Quiz</td>
+          <td>
+            <p class="result">40</p>
+          </td>
+          <td>
+            <p class="result">
+              2 / 3
+            </p>
+          </td>
+          <td>34</td>
+          <td>85%</td>
+          <td>
+            <p class="result" style="border: 1px solid #a8f0c6; background-color: #a8f0c6; font-size: 12px;">PASSED</p>
+          </td>
+          <td>
+            <p class="result" style="border: 1px solid #94B3F4; background-color: #94B3F4; color: white; line-height: 20px;">completed</p>
+          </td>
+         </tr>
+      </table>
+     </div>
+     <div class="col-12">
+      <div class="mob-card">
+        <div class="card-head">
+          <div style="line-height: 15px;">
+            <h3>HTML QUIZ</h3>
+            <p>Web Designing Module</p>
+          </div>
+          <div>
+            <p class="result" style="border: 1px solid #a8f0c6; background-color: #a8f0c6; font-size: 12px;border-radius: 10px; padding: 2px 5px;">PASSED</p>
+          </div>
+        </div>
+        <div class="card-content-con">
+            <div class="card-inn-con">
+              <div style="line-height: 10px;">
+                <p>Questions</p>
+                 <p class="result">40</p>
+              </div>
+              <div style="line-height: 10px;">
+                <p>Score</p>
+                <p>34</p>
+              </div>
+            </div>
+            <div class="card-inn-con">
+              <div style="line-height: 10px;">
+                <p>Percentage</p>
+                <p>85%</p>
+              </div>
+              <div style="line-height: 10px;"> 
+                <p>Attempts</p>
+                <p class="result">2 / 3</p>
+              </div>
+            </div>
+        </div>
+      </div>
+     </div>
+     <div class="col-12 text-center">
+      <p style="color: rgb(115, 115, 115); margin-top: 30px;">Contact your instructor if you have any issues accessing your quizzes.</p>
+     </div>
+  </div>
+</div>
+   </div>
+</div>
+ <nav class="footer-nav">
+     <a href="dashboard.html" class="active text-center pt-1">       
+      <svg
+       xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house w-5 h-5"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+      </svg>
+    </a>
+      <a href="course.html" class="active text-center pt-1"> 
+             
+      <svg 
+      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-book-open w-5 h-5">
+            <path d="M12 7v14"></path>
+            <path
+              d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z">
+            </path>
+          </svg>
+          </a>
+           <a href="attendence.html" class="active text-center pt-1"> 
+            <svg 
+            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-credit-card w-5 h-5">
+            <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+            <line x1="2" x2="22" y1="10" y2="10"></line>
+           </svg>
+          </a>
+           <a href="payment.html" class="active text-center pt-1"> 
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-graduation-cap w-5 h-5">
+            <path
+              d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+            </path>
+            <path d="M22 10v6"></path>
+            <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+          </svg>
+        </a>
+         <a href="assinment.html" class="active text-center pt-1">   
+        <svg 
+              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-notebook-pen w-5 h-5">
+            <path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4"></path>
+            <path d="M2 6h4"></path>
+            <path d="M2 10h4"></path>
+            <path d="M2 14h4"></path>
+            <path d="M2 18h4"></path>
+            <path
+              d="M21.378 5.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z">
+            </path>
+          </svg>
+          </a>
+           <a href="quiz.html" class="active text-center pt-1">   
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-check w-5 h-5 min-w-5">
+                  <rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect>
+                  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                  <path d="m9 14 2 2 4-4"></path>
+                </svg>
+                </a>
+         </nav>
+    <!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
