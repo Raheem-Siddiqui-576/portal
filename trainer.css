@@ -147,52 +147,62 @@ form p {
     text-decoration: underline;
   }
 @media only screen and (max-width: 600px) {
-    .bt-container {
-        border: 2px solid white;
-        height: 100px;
-        background-color: white ;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 90%;
-        margin: 10px auto;
-        padding: 5px 0px;
-    }
+  
+.main-container {
+    width: 60% !important;
+    text-align: center;
+     background-color: white !important;
+}
+.input-con{
+    display: block;
+    margin: 10px 0px;
+    width: 90%;
+    padding: 0px 15px;
+    
+}
 
-    .bt {
-        border: 2px solid #f5f5f5;
-        white-space: nowrap;
-        height: 30px !important;
-        width: 95% !important;
-        background-color: #f5f5f5 !important;
-          color: #999393 !important;
-        display: block;
-        border-radius: 0px !important;
-        text-align: center;
-        margin-top: 7px;
-        line-height: 30px;
-       }
-       form p{
-        font-size: 10px;
+form {
+    border: 1px solid #e5e5e5;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px auto;
+    text-align: start;
+    padding: 20px 15px;
+}
+form h3{
+    font-size: 16px;
+}
+  
+form p{
+        font-size: 14px;
         line-height: 15px;
        }
-      .input-con input {
-    border: 1px solid black;
+    .input-con input {
+    border: 1px solid #E8F0FE;
     height: 28px;
-    width: 98%;
     border-radius: 5px;
+    background-color: #E8F0FE;
     color: black;
-    padding: 0px 10px;
+    padding: 0px 0px;
 }
+.log-in {
+    border: 2px solid #2b4f8c;
+    height: 28px;
+    width: 90%;
+    border-radius: 10px !important; 
+    font-size: 14px;
+    background-color: #2b4f8c;
+ }
+
 #login-teacher {
     border: 1px solid #e5e5e5;
     height: 35px;
-    width: 65%;
+    width: 100%;
     border-radius: 10px;
     margin-top: 10px;
     background-color: white;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 200;
 
 }
