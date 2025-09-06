@@ -294,7 +294,7 @@ table th, table td {
     .mob-nav{
     display: block;
     width: 100%;
-    padding: 0px 20px;
+    padding: 5px 20px;
    }
    .nav-inn-div{
     display: flex;
@@ -372,10 +372,10 @@ table th, table td {
     position: fixed;
     bottom: 0px;
 }
-.footer-nav button{
+.footer-nav a{
     border: 2px solid white;
     background-color: white;
-    color: black;
+    color: black !important;
     height: 40px;
     width: 40px;
     border-radius: 100%;

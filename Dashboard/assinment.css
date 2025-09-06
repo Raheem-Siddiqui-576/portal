@@ -137,6 +137,7 @@ table button:hover {
     display: flex;
     justify-content: space-between;
     padding: 0px 10px;
+    margin-top: 20px;
     align-items: center;
 }
 

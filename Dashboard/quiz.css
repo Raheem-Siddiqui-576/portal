@@ -126,7 +126,7 @@ table tr td .result {
 .card-inn-con{
     display: flex;
     justify-content: start;
-    gap: 100px;
+    gap: 80px;
     margin-top: 10px;
  
 }
